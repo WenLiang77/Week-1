@@ -5,7 +5,7 @@
 int main(void) {
     int plus_cnt = 0, minus_cnt = 0;
     int median = RAND_MAX / 2;
-    srand(time(NULL)); // Seed random number generator
+    srand(time(NULL)); 
 
     for (int i = 0; i < 500; i++) {
         int r = rand();
